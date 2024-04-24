@@ -1,0 +1,2592 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /about/ HTTP/1.1" 200 1143
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3511
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3792
+"GET / HTTP/1.1" 200 1311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/2/ HTTP/1.1" 200 3511
+"GET /media/ac1.jpg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1898
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3511
+"GET /parkings/ HTTP/1.1" 200 1898
+"GET /select_parking_spot/2/ HTTP/1.1" 200 3511
+Client None
+Client parking=None p_id=None
+Client parking=None p_id=None
+Client parking=<Parking: Parking object (1)> p_id=1
+Client parking=<Parking: Parking object (1)> p_id=1
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 6059
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 32, in select_parking_spot
+    spot = form_sel_spot.cleaned_data['select_spots']
+AttributeError: 'SelectSpots' object has no attribute 'cleaned_data'
+"POST /select_parking_spot/1/ HTTP/1.1" 500 70530
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 6059
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4087
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4087
+"GET /media/ac1.jpg HTTP/1.1" 304 0
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4087
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4087
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4087
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 47, in select_parking_spot
+    return render(request, 'select_parking_spot.html', {'form': form_, 'form_sel_spot': form_sel_spot,
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 91, in as_table
+    return self.render(self.template_name_table)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 55, in render
+    return mark_safe(renderer.render(template, context))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\boundfield.py", line 95, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\boundfield.py", line 270, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\widgets.py", line 785, in use_required_attribute
+    first_choice = next(iter(self.choices), None)
+TypeError: 'int' object is not iterable
+"GET /select_parking_spot/1/ HTTP/1.1" 500 246699
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 47, in select_parking_spot
+    return render(request, 'select_parking_spot.html', {'form': form_, 'form_sel_spot': form_sel_spot,
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 91, in as_table
+    return self.render(self.template_name_table)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 55, in render
+    return mark_safe(renderer.render(template, context))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\boundfield.py", line 95, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\boundfield.py", line 270, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\widgets.py", line 785, in use_required_attribute
+    first_choice = next(iter(self.choices), None)
+TypeError: 'int' object is not iterable
+"GET /select_parking_spot/1/ HTTP/1.1" 500 246699
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 47, in select_parking_spot
+    return render(request, 'select_parking_spot.html', {'form': form_, 'form_sel_spot': form_sel_spot,
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 909, in _resolve_lookup
+    current = current()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 91, in as_table
+    return self.render(self.template_name_table)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 55, in render
+    return mark_safe(renderer.render(template, context))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1065, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1042, in render_value_in_context
+    value = str(value)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\utils.py", line 79, in __str__
+    return self.as_widget()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\boundfield.py", line 95, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\boundfield.py", line 270, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\widgets.py", line 785, in use_required_attribute
+    first_choice = next(iter(self.choices), None)
+TypeError: 'int' object is not iterable
+"GET /select_parking_spot/1/ HTTP/1.1" 500 246699
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4087
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3754
+"GET /about/ HTTP/1.1" 200 1143
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3549
+"GET /select_parking_spot/1/ HTTP/1.1" 200 5144
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4036
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4199
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /parkings/ HTTP/1.1" 200 1899
+sp=<QuerySet [<ParkingSpots: ParkingSpots object (1)>, <ParkingSpots: ParkingSpots object (2)>, <ParkingSpots: ParkingSpots object (3)>, <ParkingSpots: ParkingSpots object (4)>, <ParkingSpots: ParkingSpots object (5)>, <ParkingSpots: ParkingSpots object (6)>, <ParkingSpots: ParkingSpots object (7)>, <ParkingSpots: ParkingSpots object (8)>, <ParkingSpots: ParkingSpots object (9)>]>
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4199
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4199
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 51, in select_parking_spot
+    return render(request, 'select_parking_spot.html', {'form': form_, 'form_sel_spot': form_sel_spot,
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 230, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+"GET /select_parking_spot/1/ HTTP/1.1" 500 159919
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 51, in select_parking_spot
+    return render(request, 'select_parking_spot.html', {'form': form_, 'form_sel_spot': form_sel_spot,
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[1]' from 'item[1]'
+"GET /select_parking_spot/1/ HTTP/1.1" 500 195302
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4217
+sp={30: 30, 31: 31, 32: 32, 33: 33, 34: 34, 35: 35, 36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 5515
+"GET /media/ac1.jpg HTTP/1.1" 304 0
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4142
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4176
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 4176
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+"GET /parkings/ HTTP/1.1" 200 1899
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 48, in select_parking_spot
+    form_sel_spot = SelectSpots()
+NameError: name 'SelectSpots' is not defined
+"GET /select_parking_spot/1/ HTTP/1.1" 500 67576
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3658
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3634
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3624
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3637
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={30: 30, 31: 31, 32: 32, 33: 33, 34: 34, 35: 35, 36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4774
+sp={30: 30, 31: 31, 32: 32, 33: 33, 34: 34, 35: 35, 36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4762
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 37, in select_parking_spot
+    spot = form_.cleaned_data['select_spots']
+KeyError: 'select_spots'
+"POST /select_parking_spot/2/ HTTP/1.1" 500 70797
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3652
+Client Петров Петр +79128337722 H3439KK17 ParkingSpots object (1)
+sp={1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3757
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+Client Cидоров Сидр Сидорович +79128453722 H999KK17 ParkingSpots object (36)
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4578
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 1143
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3436
+Client ЯЯЯ яя ЯЯЯ 87328472384 Р387КК98 ParkingSpots object (6)
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3539
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+Client Павел 8234727722 4342 ParkingSpots object (55)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 43, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132609
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+Client Павел 8234727722 4342 ParkingSpots object (55)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 43, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132626
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3436
+Client Петров Петр +79128337722 rtert ParkingSpots object (6)
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3537
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3436
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+Client erw wer werw ParkingSpots object (53)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132460
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+Client Петров Петр +79128337722 hfh ParkingSpots object (36)
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4553
+Watching for file changes with StatReloader
+Client Петров Петр +79128337722 hfhert ParkingSpots object (46)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132582
+Client Петров Петр +79128337722 hfhert ParkingSpots object (37)
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4556
+Client Петров Петр +79128337722 hfhert ParkingSpots object (39)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132617
+Client Петров Петр +79128337722 hfhert ParkingSpots object (38)
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4556
+Client Петров Петр +79128337722 hfhert ParkingSpots object (39)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132652
+Client Петров Петр +79128337722 hfhert ParkingSpots object (38)
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4556
+Client Петров Петр +79128337722 hfhert ParkingSpots object (39)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132687
+Client Петров Петр +79128337722 hfhert ParkingSpots object (43)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132687
+Client Петров Петр +79128337722 hfhert ParkingSpots object (54)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132687
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3436
+Client Петров Петр +79128337722 ghj ParkingSpots object (8)
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3535
+Client Петров Петр +79128337722 ghj ParkingSpots object (9)
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3535
+Client Петров Петр +79128337722 ghj ParkingSpots object (7)
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3535
+"GET / HTTP/1.1" 200 1311
+"GET / HTTP/1.1" 200 1311
+"GET / HTTP/1.1" 200 1311
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+Client Павел 88234727722 jg ParkingSpots object (39)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132746
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1311
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 37, in select_parking_spot
+    parking_spot = models.ParkingSpots.number_spot(spot)
+TypeError: 'DeferredAttribute' object is not callable
+"POST /select_parking_spot/2/ HTTP/1.1" 500 70912
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 41, in select_parking_spot
+    logger.info(f'Client {client.full_name} {client.phone} {client.car_number} {client.parking_spot}')
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 264, in __get__
+    raise self.RelatedObjectDoesNotExist(
+parkings.models.Client.parking_spot.RelatedObjectDoesNotExist: Client has no parking_spot.
+"POST /select_parking_spot/2/ HTTP/1.1" 500 75624
+Watching for file changes with StatReloader
+Client Павел 88234727722 jg ParkingSpots object (53)
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 43, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132760
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4454
+"GET /media/ac1.jpg HTTP/1.1" 304 0
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+spot='38'
+Internal Server Error: /select_parking_spot/2/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 43, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+spot='38'
+"POST /select_parking_spot/2/ HTTP/1.1" 500 132619
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4540
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+spot='37'
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4540
+spot='41'
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4540
+spot='57'
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4551
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 1899
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3436
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+spot='6'
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 42, in select_parking_spot
+    client.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+"POST /select_parking_spot/1/ HTTP/1.1" 500 132603
+spot='6'
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3434
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1330
+"GET /order_search HTTP/1.1" 301 0
+"GET /order_search/ HTTP/1.1" 200 1980
+"POST /order_search/ HTTP/1.1" 200 2001
+"POST /order_search/ HTTP/1.1" 200 2001
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_search/ HTTP/1.1" 200 1513
+"GET /order_search/?phone=%2B79128337722 HTTP/1.1" 200 1513
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_search/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 31, in order_search
+    return render(request, 'order_search.html', {'form': form_, 'clients': clients, 'message': message})
+UnboundLocalError: local variable 'clients' referenced before assignment
+"GET /order_search/ HTTP/1.1" 500 66683
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_search/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 31, in order_search
+    return render(request, 'order_search.html', {'form': form_, 'clients': clients, 'message': message})
+UnboundLocalError: local variable 'clients' referenced before assignment
+"GET /order_search/ HTTP/1.1" 500 66627
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_search/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 32, in order_search
+    return render(request, 'order_search.html', {'form': form_, 'message': message})
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 32: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /order_search/ HTTP/1.1" 500 186449
+"GET /order_search/ HTTP/1.1" 200 1570
+"GET /order_search/?phone=%2B79128337722 HTTP/1.1" 200 1570
+"GET /order_search/?phone=%2B79128337722 HTTP/1.1" 200 1570
+"GET /order_search/?phone=88234727722 HTTP/1.1" 200 1570
+"GET /order_search/ HTTP/1.1" 200 1570
+"GET /order_search/ HTTP/1.1" 200 1570
+"GET /order_search/?phone=%2B79128337722 HTTP/1.1" 200 1744
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3804
+sp={}
+"GET /select_parking_spot/88234727722/ HTTP/1.1" 200 3148
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3804
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3504
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3504
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3747
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3663
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3723
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3669
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3669
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3669
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3669
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3915
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3696
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3729
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3744
+Internal Server Error: /order_search/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 28, in order_search
+    return render(request, 'order_search.html', {'form': form_, 'clients': clients, 'message': message})
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\defaulttags.py", line 975, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 30: 'endfor', expected 'endif'. Did you forget to register or load this tag?
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 500 207219
+"POST /order_search/?phone=%2B79128337722 HTTP/1.1" 200 3777
+"GET / HTTP/1.1" 200 1330
+"GET /parkings/ HTTP/1.1" 200 1918
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3455
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"GET /select_parking_spot/2/ HTTP/1.1" 200 4473
+"GET /media/ac1.jpg HTTP/1.1" 304 0
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3455
+spot='6'
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 60, in select_parking_spot
+    order.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 778, in save
+    self._prepare_related_fields_for_save(operation_name="save")
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1140, in _prepare_related_fields_for_save
+    raise ValueError(
+ValueError: save() prohibited to prevent data loss due to unsaved related object 'client'.
+"POST /select_parking_spot/1/ HTTP/1.1" 500 80626
+spot='6'
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 60, in select_parking_spot
+    order.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 778, in save
+    self._prepare_related_fields_for_save(operation_name="save")
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1140, in _prepare_related_fields_for_save
+    raise ValueError(
+ValueError: save() prohibited to prevent data loss due to unsaved related object 'client'.
+"POST /select_parking_spot/1/ HTTP/1.1" 500 80626
+spot='7'
+Internal Server Error: /select_parking_spot/1/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py", line 60, in select_parking_spot
+    order.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 778, in save
+    self._prepare_related_fields_for_save(operation_name="save")
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1140, in _prepare_related_fields_for_save
+    raise ValueError(
+ValueError: save() prohibited to prevent data loss due to unsaved related object 'client'.
+"POST /select_parking_spot/1/ HTTP/1.1" 500 80626
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+spot='39'
+sp={36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58}
+"POST /select_parking_spot/2/ HTTP/1.1" 200 4471
+"GET /about/ HTTP/1.1" 200 1162
+"GET /order_search/ HTTP/1.1" 200 1744
+"POST /order_search/ HTTP/1.1" 200 7933
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1330
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3297
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3297
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6640
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/parkings/client/ HTTP/1.1" 200 30435
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/parkings/client/3/change/ HTTP/1.1" 200 13181
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /admin/parkings/client/ HTTP/1.1" 200 30435
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3297
+"GET /admin/ HTTP/1.1" 200 7538
+"GET /admin/auth/group/ HTTP/1.1" 200 8951
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/add/ HTTP/1.1" 200 14393
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 10722
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/auth/user/ HTTP/1.1" 200 13400
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 200 17770
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 200 17770
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/3/change/ HTTP/1.1" 200 13795
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/3/change/ HTTP/1.1" 200 13795
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/parkings/order/1/change/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1839, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 839, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 500 150856
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12473
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/1/change/ HTTP/1.1" 200 12962
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/parking/1/change/ HTTP/1.1" 302 0
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12704
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/1/change/ HTTP/1.1" 200 12969
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/parking/1/change/ HTTP/1.1" 302 0
+"GET /admin/parkings/parking/1/change/ HTTP/1.1" 200 13307
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12517
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/1/change/ HTTP/1.1" 200 13006
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/parking/1/change/ HTTP/1.1" 302 0
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12742
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/2/change/ HTTP/1.1" 200 12963
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/parking/2/change/ HTTP/1.1" 302 0
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12743
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/parkings/order/1/change/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1839, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 839, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 500 150856
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+Internal Server Error: /admin/parkings/order/1/change/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1839, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 839, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 500 150856
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 200 17770
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/2/change/?_to_field=id&_popup=1 HTTP/1.1" 200 7734
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/parking/2/change/?_to_field=id&_popup=1 HTTP/1.1" 200 457
+"GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+"GET /admin/parkings/parking/2/change/?_to_field=id HTTP/1.1" 200 13013
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/1/change/ HTTP/1.1" 200 17770
+"GET /admin/parkings/order/ HTTP/1.1" 200 11221
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12519
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12519
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/1/change/ HTTP/1.1" 200 13007
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12519
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3297
+"GET /admin/ HTTP/1.1" 200 9807
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/3/change/ HTTP/1.1" 200 13795
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/parkings/client/ HTTP/1.1" 200 29951
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 9807
+"GET /admin/parkings/parking/2/change/ HTTP/1.1" 200 12964
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 9807
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/?o=11.-1 HTTP/1.1" 200 32158
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/?o=12.11.-1 HTTP/1.1" 200 32661
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/?o=-12.11.-1 HTTP/1.1" 200 32696
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/?o=-12.-1 HTTP/1.1" 200 32191
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/?o=-1 HTTP/1.1" 200 31582
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/?o=-12.-1 HTTP/1.1" 200 32191
+"GET /admin/parkings/client/?o=-12.11.-1 HTTP/1.1" 200 32696
+"GET /admin/ HTTP/1.1" 200 9807
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12519
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/?o=-1 HTTP/1.1" 200 12652
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/?o=1 HTTP/1.1" 200 12643
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/1/change/?_changelist_filters=o%3D1 HTTP/1.1" 200 13095
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/parkings/parking/1/change/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1803, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\base.py", line 323, in commit
+    self._commit()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+django.db.utils.OperationalError: database is locked
+"POST /admin/parkings/parking/1/change/?_changelist_filters=o%3D1 HTTP/1.1" 500 143107
+"POST /admin/parkings/parking/1/change/?_changelist_filters=o%3D1 HTTP/1.1" 302 0
+"GET /admin/parkings/parking/?o=1 HTTP/1.1" 200 12867
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/parkings/parking/?o=1 HTTP/1.1" 200 12643
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10181
+"GET /admin/parkings/client/ HTTP/1.1" 200 31049
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/parkings/client/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 345, in result_list
+    "results": list(results(cl)),
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 321, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in __init__
+    super().__init__(*items)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 298, in items_for_result
+    yield format_html("<td{}>{}</td>", row_class, result_repr)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\html.py", line 135, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\html.py", line 117, in conditional_escape
+    return escape(text)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\functional.py", line 231, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\html.py", line 50, in escape
+    return SafeString(html.escape(str(text)))
+TypeError: __str__ returned non-string (type int)
+"GET /admin/parkings/client/ HTTP/1.1" 500 384302
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/parkings/client/ HTTP/1.1" 200 30790
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/client/ HTTP/1.1" 200 11300
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/parkings/client/ HTTP/1.1" 302 0
+"GET /admin/parkings/client/ HTTP/1.1" 200 9247
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/ HTTP/1.1" 200 9100
+"GET /admin/parkings/ HTTP/1.1" 200 6325
+"GET /admin/parkings/order/ HTTP/1.1" 200 8569
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10781
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/parkings/order/ HTTP/1.1" 200 8569
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10781
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12531
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/parking/2/change/ HTTP/1.1" 200 12982
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/parking/2/change/ HTTP/1.1" 302 0
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12800
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10835
+"GET /admin/parkings/client/ HTTP/1.1" 200 9100
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/add/ HTTP/1.1" 200 13487
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/client/add/ HTTP/1.1" 200 13761
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Internal Server Error: /admin/parkings/client/add/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: parkings_client.end_access_date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1945, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1259, in save_model
+    obj.save()
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: parkings_client.end_access_date
+"POST /admin/parkings/client/add/ HTTP/1.1" 500 210899
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/parkings/client/add/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1945, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1839, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 839, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+"GET /admin/parkings/client/add/ HTTP/1.1" 500 152216
+"GET /admin/parkings/client/ HTTP/1.1" 200 9100
+Internal Server Error: /admin/parkings/client/add/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 652, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 310, in __new__
+    fields = fields_for_model(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\forms\models.py", line 205, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1945, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 1839, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\contrib\admin\options.py", line 839, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'start_access_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+"GET /admin/parkings/client/add/ HTTP/1.1" 500 152389
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/parkings/client/add/ HTTP/1.1" 200 18846
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+"POST /admin/parkings/client/add/ HTTP/1.1" 200 19167
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/client/add/ HTTP/1.1" 302 0
+"GET /admin/parkings/client/ HTTP/1.1" 200 13878
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/add/ HTTP/1.1" 200 18846
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/client/add/ HTTP/1.1" 302 0
+"GET /admin/parkings/client/ HTTP/1.1" 200 15022
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2570
+Not Found: /
+"GET / HTTP/1.1" 404 2570
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\diplom\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET / HTTP/1.1" 200 1423
+"GET /about/ HTTP/1.1" 200 1255
+"GET /parkings/ HTTP/1.1" 200 2096
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3549
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+spot='6'
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"POST /select_parking_spot/1/ HTTP/1.1" 200 3547
+"GET /order_search/ HTTP/1.1" 200 1837
+Internal Server Error: /order_search/
+Traceback (most recent call last):
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py", line 18, in order_search
+    clients = models.Client.objects.filter(phone=phone)
+AttributeError: module 'order.models' has no attribute 'Client'
+"POST /order_search/ HTTP/1.1" 500 67887
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1423
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /about/ HTTP/1.1" 200 1255
+"GET /parkings/ HTTP/1.1" 200 2096
+"GET /order_search/ HTTP/1.1" 200 1837
+"POST /order_search/ HTTP/1.1" 200 2567
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /about/ HTTP/1.1" 200 1255
+"GET /parkings/ HTTP/1.1" 200 2096
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3549
+"GET / HTTP/1.1" 200 1423
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET / HTTP/1.1" 200 2071
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET / HTTP/1.1" 200 2136
+"GET / HTTP/1.1" 200 2162
+"GET /about/ HTTP/1.1" 200 1262
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /parkings/ HTTP/1.1" 200 2096
+sp={1: 1, 6: 6, 7: 7, 8: 8, 9: 9}
+"GET /select_parking_spot/1/ HTTP/1.1" 200 3549
+"GET /media/ac0.jpg HTTP/1.1" 304 0
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 11046
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12333
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /admin/parkings/client/ HTTP/1.1" 200 15585
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/add/ HTTP/1.1" 200 18619
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/calendar-icons.svg HTTP/1.1" 304 0
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /admin/parkings/parking/ HTTP/1.1" 200 12463
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /admin/parkings/client/ HTTP/1.1" 200 15763
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /admin/parkings/client/ HTTP/1.1" 200 15763
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/client/18/change/ HTTP/1.1" 200 19214
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /admin/parkings/client/ HTTP/1.1" 200 17447
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /order_search/ HTTP/1.1" 200 1837
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+Watching for file changes with StatReloader
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET / HTTP/1.1" 200 2138
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET / HTTP/1.1" 200 2138
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /parkings/ HTTP/1.1" 200 2096
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /about/ HTTP/1.1" 200 1262
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /admin/ HTTP/1.1" 200 10596
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\diplom\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 10596
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\diplom\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\diplom\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2242
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 3335
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 3341
+"GET / HTTP/1.1" 200 2242
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 3341
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 3335
+"GET /parkings/ HTTP/1.1" 200 2200
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 3341
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 3335
+"GET /about/ HTTP/1.1" 200 1366
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 3341
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 3335
+"GET /admin/ HTTP/1.1" 200 10960
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/base.css
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dark_mode.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/base.css HTTP/1.1" 404 3314
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dark_mode.css HTTP/1.1" 404 3329
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/nav_sidebar.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/nav_sidebar.css HTTP/1.1" 404 3335
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/theme.js
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dashboard.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/theme.js HTTP/1.1" 404 3311
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/responsive.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dashboard.css HTTP/1.1" 404 3329
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/nav_sidebar.js
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/responsive.css HTTP/1.1" 404 3332
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/nav_sidebar.js HTTP/1.1" 404 3329
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2242
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 3341
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 3335
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /order_search/ HTTP/1.1" 200 1941
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 3335
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 3341
+"GET /admin/ HTTP/1.1" 200 10960
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/base.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/base.css HTTP/1.1" 404 3314
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dark_mode.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dark_mode.css HTTP/1.1" 404 3329
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/nav_sidebar.css
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dashboard.css
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/nav_sidebar.css HTTP/1.1" 404 3335
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/dashboard.css HTTP/1.1" 404 3329
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/nav_sidebar.js
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/nav_sidebar.js HTTP/1.1" 404 3329
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/responsive.css
+Not Found: /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/theme.js
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/css/responsive.css HTTP/1.1" 404 3332
+"GET /C:/Users/Pavel/Desktop/study/Diplom/parkings/diplom/static/admin/js/theme.js HTTP/1.1" 404 3311
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\diplom\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2144
+"GET /C:/static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1846
+"GET /C:/static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1840
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 10617
+"GET /C:/static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /C:/static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /C:/static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /C:/static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /C:/static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /C:/static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /C:/static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /C:/static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /C:/static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /C:/static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\diplom\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 404 1834
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 404 1840
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 281046
+"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 145401
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /order_search/ HTTP/1.1" 200 1837
+"POST /order_search/ HTTP/1.1" 200 1847
+"POST /order_search/ HTTP/1.1" 200 1847
+"POST /order_search/ HTTP/1.1" 200 1847
+"POST /order_search/ HTTP/1.1" 200 1847
+"POST /order_search/ HTTP/1.1" 200 1847
+"POST /order_search/ HTTP/1.1" 200 2567
+"POST /order_search/ HTTP/1.1" 200 2567
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /admin/ HTTP/1.1" 200 10596
+"GET /order_search/ HTTP/1.1" 200 1837
+"POST /order_search/ HTTP/1.1" 200 2567
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"POST /order_search/ HTTP/1.1" 200 2530
+"POST /order_search/ HTTP/1.1" 200 1848
+"POST /order_search/ HTTP/1.1" 200 1848
+"POST /order_search/ HTTP/1.1" 200 1848
+"POST /order_search/ HTTP/1.1" 200 1848
+"POST /order_search/ HTTP/1.1" 200 1848
+"POST /order_search/ HTTP/1.1" 200 1848
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET /order_search/ HTTP/1.1" 200 1837
+"GET / HTTP/1.1" 200 2138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3116
+"GET /order_search/ HTTP/1.1" 200 1900
+"GET /order_search/ HTTP/1.1" 200 1900
+"POST /order_search/ HTTP/1.1" 200 2629
+"POST /order_search/ HTTP/1.1" 200 1911
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_search/ HTTP/1.1" 200 1899
+"GET /order_search/ HTTP/1.1" 200 1899
+"GET /order_search/ HTTP/1.1" 200 1899
+"GET /about/ HTTP/1.1" 200 1262
+"GET /order_search/ HTTP/1.1" 200 1899
+"GET /about/ HTTP/1.1" 200 1262
+"GET /order_search/ HTTP/1.1" 200 1899
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_search/ HTTP/1.1" 200 1900
+"POST /order_search/ HTTP/1.1" 200 2632
+"POST /order_search/ HTTP/1.1" 200 1917
+"POST /order_search/ HTTP/1.1" 200 1917
+"POST /order_search/ HTTP/1.1" 200 1917
+"POST /order_search/ HTTP/1.1" 200 1917
+"POST /order_search/ HTTP/1.1" 200 1917
+"POST /order_search/ HTTP/1.1" 200 1917
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_search/ HTTP/1.1" 200 1900
+"POST /order_search/ HTTP/1.1" 200 1921
+"POST /order_search/ HTTP/1.1" 200 1921
+"POST /order_search/ HTTP/1.1" 200 2635
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 10596
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 10494
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\parkings\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 11046
+"GET /admin/parkings/order/ HTTP/1.1" 200 11311
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Pavel\Desktop\study\Diplom\parkings\diplom\order\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/parkings/order/add/ HTTP/1.1" 200 16235
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/order/add/ HTTP/1.1" 302 0
+"GET /admin/parkings/order/add/ HTTP/1.1" 200 16532
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/order/add/ HTTP/1.1" 302 0
+"GET /admin/parkings/order/ HTTP/1.1" 200 14346
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/add/ HTTP/1.1" 200 16235
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/order/add/ HTTP/1.1" 302 0
+"GET /admin/parkings/order/ HTTP/1.1" 200 15048
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/parkings/order/add/ HTTP/1.1" 200 16235
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/parkings/order/add/ HTTP/1.1" 302 0
+"GET /admin/parkings/order/ HTTP/1.1" 200 15726
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET / HTTP/1.1" 200 2138

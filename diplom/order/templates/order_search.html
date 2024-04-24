@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Все автостоянки{% endblock %}
+
+{% block content %}
+<h1 class="text-center">Поиск заказов по номеру телефона.</h1>
+<h2 class="text-center">--{{ message }}--</h2>
+<table>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+    <tr><td>
+    {{ form.as_table }}
+    </td></tr>
+    <tr><td>
+    <input type="submit" value="Отправить запрос">
+    </td></tr>
+    </form>
+    </table>
+    <table>
+    <form>
+    {% for client in clients %}
+    <tr><th>ФИО</th><td>{{ client.full_name }}</td></tr>
+    <tr><th>Телефон:</th><td>{{ client.phone }}</td></tr>
+    <tr><th>Номер автомобиля:</th><td>{{ client.car_number }}</td></tr>
+    <tr><th>Доступ:</th><td>{% if client.access == False %}Запрещен{% else %}Разрешен{% endif %}</td></tr>
+    <tr><th>Дата начала парковки:</th><td>{{ client.start_access_date }}</td></tr>
+    <tr><th>Дата окончания парковки:</th><td>{{ client.end_access_date }}</td></tr>
+    <tr><th>Автостоянка:</th><td>{{ client.parking.name }}</td></tr>
+    <tr><th>Номер места:</th><td>{{ client.parking_spot.number_spot }}</td></tr>
+    <tr><td>-------------------------------------</td><td>----------------------------------</td></tr>
+    {% endfor %}
+    </form>
+    </table>
+<br><hr><br>
+{% endblock %}

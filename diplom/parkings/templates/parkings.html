@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Все автостоянки{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Выберите автостоянку</h2>
+{% for park in parkings %}
+<table>
+    <tr><th>Название автостоянки:</th><td>{{ park.name }}</td></tr>
+    <tr><th>Адрес:</th><td>{{ park.address }}</td></tr>
+    <tr><th>Телефон:</th><td>{{ park.phone }}</td></tr>
+    <tr><th>Количество машиномест:</th><td>{{ park.number_of_spot }}</td></tr>
+    <tr><th><h3><a class="nav-link" href="/select_parking_spot/{{ park.id }}/">Выбрать машиноместо>></a></h3></th></tr>
+</table>
+<br><hr><br>
+{% endfor %}
+{% endblock %}

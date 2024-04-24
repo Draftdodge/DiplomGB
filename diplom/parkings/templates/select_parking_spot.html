@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Выбор машиноместа{% endblock %}
+
+{% block content %}
+<h1 class="text-center" color="blue">{{ message }}</h1>
+<h2 class="text-center">Выберите машиноместо</h2>
+<table>
+    <tr><th>Схема автостоянки:</th><td>{{ parking.name }}</td></tr>
+    <tr><td>
+        {% load static %}
+        <img src="{{ parking.scheme.url }}" width=”500” height="300" class="card-img-top"></td></tr>
+    <tr>
+<th>Выберите машиноместо:</th><td>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <select name="select_spots">
+            {% for item in sp %}
+            <option value="{{ item }}">{{ item }}</option>
+            {% endfor %}
+        </select>
+    </td></tr>
+    <tr><td>
+{{ form.as_table }}
+    </td></tr>
+</table>
+    <input type="submit" value="Отправить">
+</form>
+
+<br><hr><br>
+
+{% endblock %}
